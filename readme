@@ -1,0 +1,46 @@
+# 🚀 EduPlusAI – Automated Student Attendance Monitoring & Analytics System
+
+## 📌 Problem Statement
+- **Problem Statement ID**: 25016  
+- **Title**: Automated Student Attendance Monitoring and Analytics System for Colleges  
+- **Organization**: Government of Punjab  
+- **Department**: Department of Higher Education  
+- **Theme**: Smart Education  
+
+**Description**:  
+Attendance tracking in most colleges is still done manually through roll calls or paper registers. This consumes valuable teaching time, often leads to errors, and makes it difficult to analyze attendance patterns. EduPlusAI solves this problem by automating attendance with QR codes, email OTP login, analytics dashboards, and AI-powered insights.
+
+---
+
+## ✨ Features
+- ✅ **Secure Authentication** (Password & Email OTP Login)  
+- ✅ **QR-based Attendance** (Faculty generates QR → Students scan → Attendance marked)  
+- ✅ **Student Dashboard** (subject-wise charts & recent attendance)  
+- ✅ **Faculty Dashboard** (session management & QR code generator)  
+- ✅ **Admin Panel** (manage students, faculty, departments, subjects)  
+- ✅ **Analytics Dashboard** (attendance trends, low attendance list)  
+- ✅ **AI Insights (GPT API)** (predict shortages, suggest actions)  
+- ✅ **Email Notifications** (auto-send alerts for <75% attendance)  
+- ✅ **Chatbot Assistant** (natural language queries like *“My attendance in Physics?”*)  
+- ✅ **Responsive UI** (TailwindCSS + Alpine.js + Chart.js)  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: Tailwind CSS, Alpine.js, Chart.js  
+- **Backend**: PHP (Core PHP, no framework)  
+- **Database**: MySQL  
+- **AI Integration**: OpenAI GPT API  
+- **Other Libraries**:  
+  - [PHPMailer](https://github.com/PHPMailer/PHPMailer) – Email OTP & Notifications  
+  - [endroid/qr-code](https://github.com/endroid/qr-code) – QR Attendance  
+  - [openai-php/client](https://github.com/openai-php/client) – GPT Integration  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repo
+```bash
+git clone https://github.com/yourteam/eduplusai.git
+cd eduplusai
